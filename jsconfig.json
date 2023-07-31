@@ -1,9 +1,12 @@
 {
-    "compilerOptions": {
-        "baseUrl": ".",
-        "paths": {
-            "@/*": ["resources/js/*"]
-        }
-    },
-    "exclude": ["node_modules", "public"]
+  "compilerOptions": {
+    "target": "ES2017",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["resources/js/*"]
+    }
+    // "allowSyntheticDefaultImports": false
+  },
+  // "include": ["resources/js/Components/*", "resources/js/Layouts/*", "resources/js/Pages/**/*"],
+  "exclude": ["node_modules", "public"]
 }

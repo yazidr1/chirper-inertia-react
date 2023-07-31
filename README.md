@@ -7,6 +7,34 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## This project is based on [Laravel Bootcamp Chirp Inertia React](https://bootcamp.laravel.com/introduction#javascript--inertia) for learning purposes.
+
+## Dev Installation
+
+1. Clone the repository
+2. Run `composer install`
+3. Run `npm install`
+4. Run `npm run dev`
+5. Run `php artisan migrate`
+<!-- 6. Run `php artisan db:seed` -->
+7. Run `php artisan serve`
+8. Visit `localhost:8000` in your browser
+9. Register a new user
+10. Visit `localhost:8000/chirps` in your browser
+11. Create a new chirp
+
+I used local mailpit in windows for testing emails
+had to kind of debug to get it working, here's the config in .env file
+```
+MAIL_MAILER=smtp
+MAIL_HOST=localhost
+MAIL_PORT=1025
+MAIL_USERNAME=null
+MAIL_PASSWORD=null
+MAIL_ENCRYPTION=null
+MAIL_FROM_ADDRESS="huha@chirp.com"
+MAIL_FROM_NAME="${APP_NAME}"
+```
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
